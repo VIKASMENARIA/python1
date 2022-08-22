@@ -3,3 +3,9 @@ def generator():
   yield 20
   print("element second")
   yield 30
+
+
+
+d=frozenset([1,2,3,4])
+print(a)
+d.intersection(b)
