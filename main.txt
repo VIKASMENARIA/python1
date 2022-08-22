@@ -1,0 +1,5 @@
+def generator():
+  print("element are")
+  yield 20
+  print("element second")
+  yield 30
