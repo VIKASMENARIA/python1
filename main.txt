@@ -1,11 +1,31 @@
-def generator():
-  print("element are")
-  yield 20
-  print("element second")
-  yield 30
+import datetime
 
-
-
-d=frozenset([1,2,3,4])
-print(a)
-d.intersection(b)
+def func():
+  x=int(input("ENTER THE INPUT:: "))
+  y=int(input("ENTER THE INPUT:: "))
+  opr=input("ENTER THE OPERATOR(+,-,*,/,//,%,^)")
+  if opr=="+":
+    print(x+y)
+    print("\U0001f600")   #this is a emoji
+  elif opr=="-":
+    print(x-y)
+    print("\U0001f600")
+  elif opr=="*":
+    print(x*y)
+    print("\U0001f600")
+  elif opr=="/":
+    print(x/y)
+    print("\U0001f600")
+  elif opr=="//":
+    print(x//y)
+    print("\U0001f600")
+  elif opr=="%":
+    print(x%y)
+    print("\U0001f600")
+  elif opr=="^":
+    print(x**y)
+    print("\U0001f600")
+print("    DATE  :  TIME  ")
+print(datetime.datetime.now())
+  
+func()
