@@ -29,3 +29,9 @@ print("    DATE  :  TIME  ")
 print(datetime.datetime.now())
   
 func()
+
+
+
+mf=open("file.txt","r")
+mf.write("vikas")
+mf.read()
