@@ -31,7 +31,14 @@ print(datetime.datetime.now())
 func()
 
 
-
+#
 mf=open("file.txt","r")
 mf.write("vikas")
 mf.read()
+
+class pytthon():
+  def __init__(a,name,score):
+    a.name=name
+    a.score=score
+a1=pytthon("java",45)
+print(a1.name)
